@@ -20,7 +20,7 @@
     />
   </head>
   <body class="bg-dark">
-    <header class="">
+    <header class="" id="home">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid justify-content-around">
           <div class="nav-icon">
@@ -43,18 +43,21 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav float-end fs-4">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="#home"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
+                  <a class="nav-link" href="#Portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Skills</a>
+                  <a class="nav-link" href="#Skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">About</a>
+                  <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Contact">Contact</a>
                 </li>
               </ul>
               <div class="dwn">
@@ -102,7 +105,7 @@
     </header>
 
     <main>
-      <section class="portfolio text-white mt-3 mb-3">
+      <section class="portfolio text-white mt-3 mb-3" id="Portfolio">
         <h1 class="text-center mb-5">Portfolio</h1>
         <div
           class="boxes d-flex flex-column justify-content-center align-items-center row-gap-5"
@@ -217,6 +220,7 @@
 
       <section
         class="education text-white container w-75 mt-5 d-flex justify-content-center align-items-center"
+        id="Skills"
       >
         <div class="box1">
           <!--expertise-->
@@ -288,6 +292,7 @@
 
       <section
         class="text-white d-flex flex-column justify-content-center align-items-center w-100 mt-3 mb-5"
+        id="Contact"
       >
         <h1 class="service-title mt-5 mb-5">Contact With Us</h1>
         <div
