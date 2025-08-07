@@ -1,0 +1,68 @@
+body {
+  background-color: #1a1a1a;
+}
+
+.logo {
+  width: 110px;
+}
+.txt {
+  color: #00ffff;
+}
+.picture img {
+  position: relative;
+  bottom: 60px;
+  width: 400px;
+}
+
+.svg {
+  height: 28px;
+}
+.my-list {
+  list-style-type: circle;
+  padding-left: 1.5rem;
+  color: black;
+}
+
+.my-list li::marker {
+  color: black;
+}
+.small-font {
+  font-size: 13px;
+}
+
+.contact-us {
+  /* width: 650px; */
+  /* height: ; */
+  padding: 50px;
+  margin: auto;
+  box-shadow: 4px 4px 8px grey;
+  text-align: center;
+}
+.input-box {
+  /* background-color: black; */
+  padding: 15px;
+  width: 400px;
+  margin-top: 10px;
+}
+
+.msg {
+  width: 550px;
+
+  height: 190px;
+  /* margin-top: 15px; */
+  padding: 15px;
+}
+
+.submit-btn {
+  width: 75%;
+  padding: 15px;
+  margin-top: 20px;
+  border: none;
+  color: #00ffff;
+  font-weight: bold;
+}
+
+.front-section {
+  position: relative;
+  bottom: 65px;
+}
